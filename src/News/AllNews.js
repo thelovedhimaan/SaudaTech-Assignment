@@ -3,7 +3,7 @@ import axios from 'axios';
 import News from './News';
 import './AllNews.css';
 
-function AllNews(props) {
+function AllNews() {
    const [Load, setLoad] = useState(true);
    const [news, setnews] = useState([]);
 
